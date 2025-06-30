@@ -1,5 +1,8 @@
 # Estrutura do Projeto APP_TEST/
 
+- infra 
+    - infra.drawio.png - desenho da arquitetura inicial
+
 - python/ – app e arquivos Python + executavel  (app1.py, app1_cache.py,  requirements.txt, exec_python.sh)
     - app1.py - Duas rotas sem cache com debug para debug ativo para monitoramento e visualização dos logs.
     - app1_cache.py - Duas rotas com caches, rota /text com cache de 10 segundos e /time com cache de 60 segundos,  debug ativo para monitoramento e visualização de logs ( opção correta seria o logging, mas prefiro usar o debug no meu dia a dia para testes ).
@@ -27,7 +30,7 @@ Obs.:
     - Em ambos projetos a path /text esta configurada para finalizar em 30 segundos, antes de iniciar a path /time. Caso precise ou queira executar um a um basta descomentar a linha "execução sem timeout" nos respectivos arquivos. 
 
 
-![Diagram](./infra/infra.drawio)
+![Diagram](./infra/infra.drawio.png)
 
 
 # Melhorias
