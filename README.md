@@ -20,16 +20,17 @@
 # Execução 
 
 - Python.
-    Executar exec_python.sh dentro da pasta ./python 
-        Comando:  bash exec_python.sh
+    - Executar exec_python.sh dentro da pasta ./python 
+        - Comando:  bash exec_python.sh
 
 - NodeJS.
-    Executar exec_node.sh dentro da pasta ./nodejs 
-        Comando:  bash exec_node.sh
+    - Executar exec_node.sh dentro da pasta ./nodejs 
+        - Comando:  bash exec_node.sh
 
-Obs.: 
-    - Para instalação, caso não tenha python e nodejs localmente, existem linhas comentadas dentro dos arquivos .sh para auxiliar. 
-    - Em ambos projetos a path /text esta configurada para finalizar em 30 segundos, antes de iniciar a path /time. Caso precise ou queira executar um a um basta descomentar a linha "execução sem timeout" nos respectivos arquivos. 
+# Observações 
+
+- Para instalação, caso não tenha python e nodejs localmente, existem linhas comentadas dentro dos arquivos .sh para auxiliar. 
+- Em ambos projetos a path /text esta configurada para finalizar em 30 segundos, antes de iniciar a path /time. Caso precise ou queira executar um a um basta descomentar a linha "execução sem timeout" nos respectivos arquivos. 
 
 
 ![Diagram](./infra/infra.drawio.png)
