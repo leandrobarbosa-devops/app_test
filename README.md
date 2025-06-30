@@ -21,9 +21,11 @@
 
 - Python.
     Executar exec_python.sh dentro da pasta ./python 
+        Comando:  bash exec_python.sh
 
 - NodeJS.
-    Executar exec_node.sh dentro da pasta ./nodejs
+    Executar exec_node.sh dentro da pasta ./nodejs 
+        Comando:  bash exec_node.sh
 
 Obs.: 
     - Para instalação, caso não tenha python e nodejs localmente, existem linhas comentadas dentro dos arquivos .sh para auxiliar. 
